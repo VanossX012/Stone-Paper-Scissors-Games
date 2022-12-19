@@ -46,7 +46,7 @@ function result (keypressed)  {
     else if(keypressed == "Paper" && aiChoiceInGame == "Scissors"){  
     document.querySelector(".rslt").innerHTML = "AI Wins AI chose " + aiChoiceInGame} 
     else if(keypressed == "Paper" && aiChoiceInGame == "Stone"){  
-    document.querySelector(".rslt").innerHTML = "AI Wins AI chose " + aiChoiceInGame}   
+    document.querySelector(".rslt").innerHTML = "Player Wins AI chose " + aiChoiceInGame}   
     
 }
 
